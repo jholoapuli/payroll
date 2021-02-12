@@ -5,13 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Department extends Model
+class AllLoan extends Model
 {
     use HasFactory;
     protected $fillable = 
     [
-        'department'
+        'notes',
+        'amount',
+        'months_payable'
+        
     ];
 
-    protected $table = 'employees';
+    protected $table = 'all_loans';
+
 }

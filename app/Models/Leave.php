@@ -5,13 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Department extends Model
+class Leave extends Model
 {
     use HasFactory;
     protected $fillable = 
     [
-        'department'
+        'start',
+        'end',
+        'notes',
+        'employee_id',
+        'leave_type_id'
     ];
 
-    protected $table = 'employees';
+    protected $table = 'leaves';
 }
