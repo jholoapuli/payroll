@@ -15,10 +15,15 @@ class CreateAllLoansTable extends Migration
     {
         Schema::create('all_loans', function (Blueprint $table) {
             $table->id();
-            $table->string('first_name');
-            $table->string('last_name');
-            $table->string('middle_name');
-            $table->string('contact');
+            $table->string('notes');
+            $table->integer('amount');
+            $table->longText('months_payable');
+
+            $table->bigInteger('loan_type_id')->unsigned()->index();
+            $table->foreign('loan_type_id')->references('id')
+            ->on('loan_type')
+            ->onDelete('cascade');
+            
             $table->timestamps();
         });
     }
