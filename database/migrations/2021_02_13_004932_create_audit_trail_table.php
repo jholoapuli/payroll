@@ -15,6 +15,13 @@ class CreateAuditTrailTable extends Migration
     {
         Schema::create('audit_trail', function (Blueprint $table) {
             $table->id();
+            $table->integer('module');
+            $table->string('action');        
+            $table->bigInteger('user_id')->unsigned()->index();
+            $table->foreign('user_id')->references('id')
+            ->on('users')
+            ->onDelete('cascade');
+
             $table->timestamps();
         });
     }
