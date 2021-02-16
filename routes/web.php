@@ -13,5 +13,20 @@ use App\Http\Controllers\DepartmentController;
 |
 */
 
-Route::get('/',[ DepartmentController::class, 'index'])
-->name('crud');
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+
+Route::group(['prefix' => 'department'], function () {
+
+
+    Route::get('/index', [DepartmentController::class, 'index',])->name('indexpage');
+    Route::get('/add/department', [DepartmentController::class, 'createform',])->name('deptform');
+    Route::post('/save', [DepartmentController::class, 'saveform',])->name('saveform');
+    Route::get('/update/{id}', [DepartmentController::class, 'updateform',])->name('update_form');
+    Route::post('/save/{id}', [DepartmentController::class, 'updateformsave',])->name('update_formsave');
+    Route::get('/delete/{id}', [DepartmentController::class, 'deletedata',])->name('delete_data');
+
+});
