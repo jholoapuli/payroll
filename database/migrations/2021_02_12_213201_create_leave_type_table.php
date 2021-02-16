@@ -17,7 +17,7 @@ class CreateLeaveTypeTable extends Migration
             $table->id();           
             $table->longText('description');
             $table->integer('allowed_days');
-            $table->longText('pay');
+            $table->double('pay');
             $table->string('leave_type');
             $table->timestamps();
         });

@@ -23,7 +23,7 @@ class CreateEmployeesTable extends Migration
             $table->longText('address');
             $table->date('birthday');
             $table->longText('designation');
-            $table->integer('basic_rate');
+            $table->double('basic_rate');
             
             $table->bigInteger('department_id')->unsigned()->index();
             $table->foreign('department_id')->references('id')
