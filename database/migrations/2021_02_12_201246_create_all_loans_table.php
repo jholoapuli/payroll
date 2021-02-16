@@ -19,6 +19,11 @@ class CreateAllLoansTable extends Migration
             $table->integer('amount');
             $table->longText('months_payable');
 
+            $table->bigInteger('employee_id')->unsigned()->index();
+            $table->foreign('employee_id')->references('id')
+            ->on('employee')
+            ->onDelete('cascade');
+            
             $table->bigInteger('loan_type_id')->unsigned()->index();
             $table->foreign('loan_type_id')->references('id')
             ->on('loan_type')
