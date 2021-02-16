@@ -18,48 +18,48 @@
             </li>  
                 
             <li class="c-sidebar__item has-submenu">
-                <a class="c-sidebar__link" data-toggle="collapse" href="#sidebar-submenu_2" aria-expanded="false" aria-controls="sidebar-submenu_2">
+                <a class="c-sidebar__link" data-toggle="collapse" href="#department_sidebar" aria-expanded="false" aria-controls="department_sidebar">
                     <i class="fa fa-flag-checkered u-mr-xsmall"></i> Departments
                 </a>
-                <ul class="c-sidebar__submenu collapse" id="sidebar-submenu_2">
+                <ul class="c-sidebar__submenu collapse" id="department_sidebar">
                     <li><a class="c-sidebar__link" href="...">All Departments</a></li> 
                     <li><a class="c-sidebar__link" href="...">Add Department</a></li>                                         
                 </ul>
             </li>           
             <li class="c-sidebar__item has-submenu">
-                <a class="c-sidebar__link" data-toggle="collapse" href="#sidebar-submenu_2" aria-expanded="false" aria-controls="sidebar-submenu_2">
+                <a class="c-sidebar__link" data-toggle="collapse" href="#employees_sidebar" aria-expanded="false" aria-controls="employees_sidebar">
                     <i class="fa fa-flag-checkered u-mr-xsmall"></i> Employees
                 </a>
-                <ul class="c-sidebar__submenu collapse" id="sidebar-submenu_2">
+                <ul class="c-sidebar__submenu collapse" id="employees_sidebar">
                     <li><a class="c-sidebar__link" href="...">Records</a></li> 
                     <li><a class="c-sidebar__link" href="...">Add New</a></li>                                         
                 </ul>
             </li>  
             <li class="c-sidebar__item has-submenu">
-                <a class="c-sidebar__link" data-toggle="collapse" href="#sidebar-submenu_2" aria-expanded="false" aria-controls="sidebar-submenu_2">
+                <a class="c-sidebar__link" data-toggle="collapse" href="#loans_sidebar" aria-expanded="false" aria-controls="loans_sidebar">
                     <i class="fa fa-flag-checkered u-mr-xsmall"></i> Loans
                 </a>
-                <ul class="c-sidebar__submenu collapse" id="sidebar-submenu_2">
+                <ul class="c-sidebar__submenu collapse" id="loans_sidebar">
                     <li><a class="c-sidebar__link" href="...">All Loans</a></li> 
                     <li><a class="c-sidebar__link" href="...">Loan Types</a></li>        
                     <li><a class="c-sidebar__link" href="...">Add Loan Types</a></li>                                    
                 </ul>
             </li>  
             <li class="c-sidebar__item has-submenu">
-                <a class="c-sidebar__link" data-toggle="collapse" href="#sidebar-submenu_2" aria-expanded="false" aria-controls="sidebar-submenu_2">
+                <a class="c-sidebar__link" data-toggle="collapse" href="#leaves_sidebar" aria-expanded="false" aria-controls="leaves_sideba">
                     <i class="fa fa-flag-checkered u-mr-xsmall"></i> Leaves
                 </a>
-                <ul class="c-sidebar__submenu collapse" id="sidebar-submenu_2">
+                <ul class="c-sidebar__submenu collapse" id="leaves_sidebar">
                     <li><a class="c-sidebar__link" href="...">All Leaves</a></li> 
                     <li><a class="c-sidebar__link" href="...">Leaves Types</a></li>        
                     <li><a class="c-sidebar__link" href="...">Add Leaves Types</a></li>                                         
                 </ul>
             </li>        
             <li class="c-sidebar__item has-submenu">
-                <a class="c-sidebar__link" data-toggle="collapse" href="#sidebar-submenu_2" aria-expanded="false" aria-controls="sidebar-submenu_2">
+                <a class="c-sidebar__link" data-toggle="collapse" href="#deductions_sidebar" aria-expanded="false" aria-controls="deductions_sidebar">
                     <i class="fa fa-flag-checkered u-mr-xsmall"></i> Mandatory Deductions
                 </a>
-                <ul class="c-sidebar__submenu collapse" id="sidebar-submenu_2">
+                <ul class="c-sidebar__submenu collapse" id="deductions_sidebar">
                     <li><a class="c-sidebar__link" href="...">Add New</a></li> 
                     <li><a class="c-sidebar__link" href="...">Tax Table</a></li>        
                     <li><a class="c-sidebar__link" href="...">SSS Table</a></li>      
