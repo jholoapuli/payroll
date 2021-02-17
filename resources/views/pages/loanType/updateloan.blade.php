@@ -13,21 +13,28 @@
             <div class="c-table-responsive@desktop"> 
                 <table class="c-table">
                     <caption class="c-table__title">
-                        Add Department
+                        Add Loan
                     </caption>
                     
                     
                 </table>
-                <form method="post" action="{{URL::route('saveform')}}">  
+                <form method="post" action="{{URL::route('loantypeindex',$loantype->id)}}">  
                     @csrf
                     <div class="row"> 
                         <div class="col-lg-4 col-md-4 u-mb-medium">
                             <div class="c-field">
-                                <label class="c-field__label">Department</label>
-                                <input class="c-input c-input--info" type="text" name="department">
+                                <label class="c-field__label">Loan Type</label>
+                                <input class="c-input c-input--info" type="text" name="type">
                             </div>
                         </div>                   
                     </div> 
+
+                    <div class="col-lg-8 col-md-4 u-mb-medium">
+                        <div class="c-field">
+                            <label class="c-field__label">Description</label>                            
+                            <textarea class="c-input" type="text" name="description"></textarea>
+                        </div>
+                    </div>  
                     <div class="col-sm-12 col-md-12 u-mb-medium">
                         <span class="c-divider u-mv-medium"></span>
                     </div>

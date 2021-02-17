@@ -26,7 +26,7 @@ class DepartmentController extends Controller
 
     public function createform()
     {
-      return view('pages.add_dep');
+      return view('pages.department.add_dep');
     }
 
     public function saveform() 

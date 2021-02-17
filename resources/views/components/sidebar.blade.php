@@ -22,8 +22,8 @@
                     <i class="fa fa-flag-checkered u-mr-xsmall"></i> Departments
                 </a>
                 <ul class="c-sidebar__submenu collapse" id="sidebar-submenu_2">
-                    <li><a class="c-sidebar__link" href="...">All Departments</a></li> 
-                    <li><a class="c-sidebar__link" href="...">Add Department</a></li>                                         
+                    <li><a class="c-sidebar__link" href="{{URL::route('indexpage')}}">All Departments</a></li> 
+                    <li><a class="c-sidebar__link" href="{{URL::route('deptform')}}">Add Department</a></li>                                         
                 </ul>
             </li>           
             <li class="c-sidebar__item has-submenu">
